@@ -126,6 +126,9 @@ exit:
 
 /* convert IP address to a string, but not into a single buffer
  */
+/* I post a question on StackOverflow about reentrancy of this 
+   function, hopefully someone would answer me!
+*/
 char *
 naddr_ntoa(naddr a)
 {
